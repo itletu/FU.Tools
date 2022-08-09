@@ -30,9 +30,9 @@ namespace FU.Tools
                 return data;
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw ex;
+                throw;
             }
         }
 
@@ -66,9 +66,9 @@ namespace FU.Tools
                 }
                 return data;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw ex;
+                throw;
             }
         }
  
